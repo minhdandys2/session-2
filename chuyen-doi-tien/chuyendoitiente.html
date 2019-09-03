@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>chuyển đổi tiền tệ</title>
+</head>
+<style>
+    td, th {
+        text-align: center;
+    }
+</style>
+<script src="jschuyendoitiente.js">
+</script>
+<body>
+   <table style="width:100%;">
+       <tr>
+           <th>Amount</th>
+           <th>From Currency</th>
+           <th>To Curency</th>
+           <th><button id="ketqua" onclick="quydoi()">Convert</button></th>
+       </tr>
+       <tr>
+           <td><input type="text" id="amount"></td>
+           <td>
+               <select id="fromCurrency">
+                   <option value="23000"selected>USD</option>
+                   <option value="1">VNĐ</option>
+                   <option value="22000">yen</option>
+               </select>
+           </td>
+           <td>
+               <select id="toCurrency">
+                   <option value="23000">USD</option>
+                   <option value="1"selected>VNĐ</option>
+                   <option value="22000">yen</option>
+               </select>
+           </td>
+           <td></td>
+       </tr>
+   </table>
+</body>
+</html>
